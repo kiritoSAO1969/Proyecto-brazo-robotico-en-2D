@@ -293,7 +293,7 @@ def crear_ventana():
     global ventana, ax, canvas, desliz_hombro, desliz_codo, desliz_mano1, desliz_mano2
     ventana = tk.Tk()
     ventana.title("Simulación de Brazo Robótico")
-    ventana.iconbitmap('C:\\Users\\zaddk\\Documents\\Algebra lineal\\icono_brazo_robot.ico') #modificar con ruta hacia la imagen para
+    #ventana.iconbitmap('C:\\Users\\zaddk\\Documents\\Algebra lineal\\icono_brazo_robot.ico') #modificar con ruta hacia la imagen para
                                                                                             #correcto funcionamiento, la img tiene q ser .ico
     ventana.geometry("1500x900")
     ventana.configure(bg="#2E2E2E")
